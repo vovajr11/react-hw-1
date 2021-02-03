@@ -1,0 +1,24 @@
+.item {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.active {
+  composes: status;
+  background-color: green;
+}
+
+.inactive {
+  composes: status;
+  background-color: red;
+}

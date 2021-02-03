@@ -1,7 +1,8 @@
 import React from 'react';
 import Profile from './Profile/Profile';
-
-import profileUser from '../user.json';
+import FriendList from './Friend-list/Friend-list';
+import profileUser from '../components/Profile/user.json';
+import friends from '../components/Friend-list/friends.json';
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
         avatar={profileUser.avatar}
         stats={profileUser.stats}
       />
+
+      <FriendList friends={friends} />
     </div>
   );
 }
