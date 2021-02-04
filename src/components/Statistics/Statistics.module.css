@@ -1,0 +1,50 @@
+.sectionStat {
+  background-color: rgba(127, 255, 212, 0.315);
+  margin: 0 auto;
+
+  width: 300px;
+}
+
+.title {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 300;
+}
+
+.list {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.item {
+  width: 60px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:nth-child(1) {
+  background-color: aquamarine;
+}
+.item:nth-child(2) {
+  background-color: pink;
+}
+
+.item:nth-child(3) {
+  background-color: rgb(42, 126, 165);
+}
+
+.item:nth-child(4) {
+  background-color: greenyellow;
+}
+
+.item:nth-child(5) {
+  background-color: goldenrod;
+}

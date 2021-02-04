@@ -4,7 +4,7 @@ import styles from './Statistics.module.css';
 function Statistics({ stats, title }) {
   return (
     <section className={styles.sectionStat}>
-      <h2>{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
 
       <ul className={styles.list}>
         {stats.map(stat => (
